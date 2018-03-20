@@ -50,8 +50,8 @@ If you take a look at the Timepot website, you will notice that there are severa
 * be one page
 * have HTML tags be semantically relevant to the content it contains
 * make proper use of classes and id’s to target content
-    > ids must be used for an individual element
-    > classes should be used for grouped elements
+    - ids must be used for an individual element
+    - classes should be used for grouped elements
 * have at least one useful animation on the page
 * have at least one useful javascript event callback (click, hover, keydown, etc)
 

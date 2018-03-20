@@ -37,6 +37,18 @@ body {
 img.landing {
     max-width: 100%;
     padding: 2px 0px;
+    filter: blur(2px) grayscale(10%);
+}
+
+.products {
+    max-width: 800px;
+}
+
+.slide {
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 

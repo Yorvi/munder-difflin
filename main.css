@@ -32,13 +32,14 @@ header {
 body {
 	padding: 0;
 	margin: 0;
-	font-size: 140%;
+    font-size: 140%;
+    font-family: 'Oswald', sans-serif;
 }
 
 img.landing {
     max-width: 100%;
-    padding: 2px 0px;
-    filter: blur(2px) grayscale(10%);
+    height: auto;
+    filter: blur(1px) grayscale(5%);
 }
 
 h1 {
@@ -46,10 +47,17 @@ h1 {
     text-align: center;
     padding: 10px;
     color: #FEFFEF;
+    font-family: 'Anton', sans-serif;
 }
 
 .large {
     color: #21264C;
+    font-family: 'Anton', sans-serif;
+}
+
+.cursive {
+    color: #21264C;
+    font-family: 'Oswald', sans-serif;
 }
 
 .row1 {

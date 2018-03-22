@@ -9,10 +9,10 @@ header {
 
 #social {
     float: right;
-    width: 30%;
-    padding: 10px 0 0;
-    max-width: 500px;
-    text-align: center;
+    width: 50%;
+    padding: 10px 10px 0;
+    max-width: 700px;
+    text-align: right;
 }
 
 .fa {
@@ -29,10 +29,11 @@ header {
 	text-decoration: none;
 }
 
-body {
+body#box1 {
 	padding: 0;
 	margin: 0;
     font-size: 140%;
+    background: #FEFFEF;
     font-family: 'Oswald', sans-serif;
 }
 

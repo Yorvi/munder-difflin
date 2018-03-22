@@ -70,23 +70,23 @@ h1 {
 }
 
 .gallery {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     margin: 10px;
     display: inline-block;
 }
-.galleryBig {
+/* .galleryBig {
     position: absolute;
     width: 0px;
     transition: width 0.3s linear 0s;
     z-index: 10;
 
-}
+} */
 
-.gallery:hover + .galleryBig {
+.gallery:hover {
     width: 400px;
     transform: scale(1.3);
-    transition: .5s;
+    transition: 1.5s;
 }
 
 #ourStaff {

@@ -93,23 +93,23 @@ h1 {
     height: 650px;
     width: 1440px;
 }
-div.staff {
+span.staff {
     margin: 5px;
     border: 1px solid #21264C;
     float: left;
     width: 228px;
 }
 
-div.staff:hover {
+span.staff:hover {
     border: 1px solid #7AB2DD;
 }
 
-div.staff img {
+span.staff img {
     width: 100%;
     height: 200px;
 }
 
-div.desc {
+section.desc {
     padding: 20px 15px;
     text-align: center;
 }

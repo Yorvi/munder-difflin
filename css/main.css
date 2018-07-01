@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+/* Layout for smaller mobile phones. */
+@media screen and (max-width: 320px) {
+  
+}
+
+/* Layout for larger mobile phones. */
+@media screen and (max-width: 425px) and (min-width: 321px) {
+  
+}
+
+/* Layout for tablets. */
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  
+}
+
+/* Layout for large tablets and/or laptops. */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  
+}
+
+/* Layout for default laptop sizes and does not exceed this point. */
+@media screen and (min-width: 1025px) {
+
+  /* Navbar styling */
+  .container {
+    padding-right: 35px;
+    padding-left: 35px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  nav {
+    width: 100vw;
+  }
+  nav > div.logo > img {
+    float: left;
+    height: 70px;
+    width: 100px;
+    padding-left: 30px; 
+    padding-top: 20px;
+  }
+  nav > div.hidden {
+    display: none;
+  }
+  nav > div.nav-items {
+    float: right;
+    margin-top: 27px;
+  }
+  nav > div.nav-items > a {
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+  }
+  nav > div.nav-items > a.last-link {
+    padding-right: 150px; 
+  }
+
+
+
+  /* Landing page styling. */
+  div.landing-img {
+    position: absolute;
+  }
+  div.landing-img > img {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -2;
+  }
+}

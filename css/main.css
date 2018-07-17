@@ -18,12 +18,12 @@ body {
   
 }
 
-/* Layout for large tablets and/or laptops. */
+/* Layout for laptops. */
 @media screen and (max-width: 1024px) and (min-width: 769px) {
   
 }
 
-/* Layout for default laptop sizes and does not exceed this point. */
+/* Layout for large laptop sizes and does not exceed this point. */
 @media screen and (min-width: 1025px) {
 
   /* Navbar styling */

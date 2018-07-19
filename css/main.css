@@ -2,7 +2,16 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans Condensed', sans-serif;
+  background-color: whitesmoke;
 }
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 /* Layout for smaller mobile phones. */
 @media screen and (max-width: 320px) {
   
@@ -25,51 +34,62 @@ body {
 
 /* Layout for large laptop sizes and does not exceed this point. */
 @media screen and (min-width: 1025px) {
-
-  /* Navbar styling */
-  .container {
-    padding-right: 35px;
-    padding-left: 35px;
-    margin-right: auto;
-    margin-left: auto;
+  header {
+    background-color: white;
+    height: 52px;
   }
+
   nav {
-    width: 100vw;
+    background-color: blue;
+    width: 100%;
   }
-  nav > div.logo > img {
-    float: left;
-    height: 70px;
-    width: 100px;
-    padding-left: 30px; 
-    padding-top: 20px;
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
   }
-  nav > div.hidden {
-    display: none;
+
+  nav ul li {
+    float: left; 
   }
-  nav > div.nav-items {
-    float: right;
-    margin-top: 27px;
+
+  nav ul li.shift-right {
+    float: right; 
   }
-  nav > div.nav-items > a {
+
+  nav ul li a {
+    color: #333;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: black;
-  }
-  nav > div.nav-items > a.last-link {
-    padding-right: 150px; 
+    margin: 1px 2px;
   }
 
-
-
-  /* Landing page styling. */
-  div.landing-img {
-    position: absolute;
+  nav ul li a:hover:not(.active) {
+    background-color: #092C5C;
+    border-radius: 2px;
+    color: whitesmoke;
   }
-  div.landing-img > img {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    z-index: -2;
+
+  .active {
+    background-color: #8FBCE6;
+    border-radius: 2px;
+  }
+
+  div.landing {
+    max-width: 100vw;
+    height: 600px;
+    background-color: #333;
+  }
+
+  div.left-side {
+    background-color: white;
+    width: 50%;
+  }
+  div.right-side {
+    
   }
 }

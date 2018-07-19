@@ -29,6 +29,7 @@ body {
   padding: 0;
   font-family: 'Open Sans Condensed', sans-serif;
   background-color: whitesmoke;
+  text-align: justify;
 }
 .wrapper {
   margin-right: auto;
@@ -191,6 +192,36 @@ body {
   div.product p.small {
     text-align: center;
     font-size: smaller;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1999px) {
+  .wrapper {
+    max-width: 1850px;
+  }
+  header {
+    height: 100px;
+  }
+  nav ul li a {
+    font-size: 50px;
+    margin: 0 10px;
+  }
+  div.left-side h1 {
+    font-size: 70px;
+  }
+  div.about p {
+    font-size: 45px;
+  }
+  div.about img {
+    width: 20%;
+    margin: 0 25px 0 0;
+  }
+  div.product img {
+    height: 400px;
+  }
+  div.product p.small {
+    text-align: center;
+    font-size: 25px;
     margin: 0;
   }
 }

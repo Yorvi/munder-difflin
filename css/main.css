@@ -181,12 +181,12 @@ body {
   }
   div.product {
     display: inline-block;
-    width: 30%;
+    width: 32.13%;
     margin: 5px 5px 45px 5px;
   }
   div.product img {
     width: 100%;
-    height: 200px;
+    height: 240px;
     border-radius: 3px;
     box-shadow: #333 1px 1px 3px -1px; 
   }
@@ -198,7 +198,7 @@ body {
 }
 @media screen and (min-width: 1999px) {
   .wrapper {
-    width: 1850px;
+    max-width: 1850px;
   }
   header {
     height: 100px;

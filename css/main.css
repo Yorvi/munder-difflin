@@ -29,7 +29,7 @@ body {
   padding: 0;
   font-family: 'Open Sans Condensed', sans-serif;
   background-color: whitesmoke;
-  text-align: justify;
+  /* text-align: justify; */
 }
 .wrapper {
   margin-right: auto;
@@ -170,6 +170,7 @@ body {
   }
   div.about {
     font-size: 170%;
+    text-align: justify;
   }
   div.about img {
     float: left;
@@ -197,7 +198,7 @@ body {
 }
 @media screen and (min-width: 1999px) {
   .wrapper {
-    max-width: 1850px;
+    width: 1850px;
   }
   header {
     height: 100px;

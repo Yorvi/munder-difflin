@@ -1,3 +1,29 @@
+@-webkit-keyframes hvr-back-pulse {
+  50% {
+    background-color: #8FBCE6;
+  }
+}
+@keyframes hvr-back-pulse {
+  50% {
+    background-color: #8FBCE6;
+  }
+}
+.hvr-back-pulse:hover {
+  -webkit-animation-name: hvr-back-pulse;
+  animation-name: hvr-back-pulse;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-color: #092C5C;
+  background-color: #092C5C;
+  color: white;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -47,7 +73,6 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: whitesmoke;
-    position: sticky;
   }
 
   nav ul li {

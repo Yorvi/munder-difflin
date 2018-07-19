@@ -157,4 +157,14 @@ body {
     letter-spacing: 5px;
     font-weight: 300;
   }
+
+  div.banner {
+    text-align: center;
+    background-color: #092C5C;
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 15px;
+    padding: 60px 0;
+  }
 }

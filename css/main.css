@@ -86,10 +86,31 @@ body {
   }
 
   div.left-side {
+    float: left;
     background-color: white;
     width: 50%;
+    height: 600px;
+    position: relative;
+    font-weight: 800;
+  }
+  div.left-side h1 {
+    margin: 10px 0;
+  }
+  div.left-side div.headline {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   div.right-side {
+    float: right;
+    background-color: wheat;
+    width: 50%;
+    height: 600px;
+    position: relative;
+  }
+  div.right-side div.slideshow {
     
   }
 }

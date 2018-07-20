@@ -195,6 +195,9 @@ body {
     font-size: smaller;
     margin: 0;
   }
+  div.staff > div > img {
+    height: 250px;
+  }
 }
 @media screen and (min-width: 1995px) {
   .wrapper {

@@ -195,11 +195,52 @@ body {
     font-size: smaller;
     margin: 0;
   }
-  div.staff > div > img {
-    height: 250px;
-    width: 250px;
+  div.staff {
+    text-align: center;
+  }
+  div.employee {
+    display: inline-block;
+    width: 30.13%;
+    margin: 5px 5px 45px 5px;
+  }
+  div.employee > img {
+    height: 200px;
     border-radius: 100%;
-    box-shadow: #333 1px 1px 3px -1px; 
+    box-shadow: #333 1px 1px 3px -1px;
+  }
+  div.tri {
+    width: 100%;
+  }
+  div.tri > div {
+    text-align: center;
+    display: inline-block;
+    width: 32%;
+    margin: 5px 5px 45px 5px;
+  }
+  div.tri > div > p {
+    font-size: 150%;
+  }
+  div.contact-footer {
+    background-color: #333;
+    color: white;
+  }
+  div.left-info {
+    width: 50%;
+    float: left;
+  }
+  div.right-info {
+    width: 50%;
+    float: right;
+  }
+  div.info {
+    width: 100%;
+    margin: 50px 40px 50px 40px;
+  }
+  div.info h1 {
+    color: #8FBCE6;
+  }
+  div.info span {
+    font-size: 150%;
   }
 }
 @media screen and (min-width: 1995px) {

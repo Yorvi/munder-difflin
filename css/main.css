@@ -38,24 +38,726 @@ body {
   padding-right: 10px;
   padding-left: 10px;
 }
+/* Layout for mobile phones. */
+@media screen and (max-width: 425px) {
+  header {
+    height: 15px;
+  }
 
-/* Layout for smaller mobile phones. */
-@media screen and (max-width: 320px) {
-  
-}
+  nav {
+    width: 100%;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+  }
 
-/* Layout for larger mobile phones. */
-@media screen and (max-width: 425px) and (min-width: 321px) {
-  
+  nav ul li {
+    float: left; 
+  }
+
+  nav ul li.shift-right {
+    float: right; 
+  }
+
+  nav ul li a {
+    color: #333;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 1px 2px;
+  }
+
+  nav ul li a:hover:not(.active) {
+    background-color: #092C5C;
+    border-radius: 2px;
+    color: whitesmoke;
+  }
+
+  a.active {
+    background-color: #8FBCE6;
+    border-radius: 2px;
+  }
+
+  div.landing {
+    max-width: 100vw;
+    height: 600px;
+    background-color: #333;
+  }
+
+  div.left-side {
+    text-align: center;
+    font-weight: 800;
+    color: whitesmoke;
+    margin: 40px 0;
+  }
+  div.left-side h1 {
+    margin: 10px 0;
+    padding-top: 20px;
+  }
+  div.right-side {
+    color: whitesmoke;
+  }
+
+  div.slideshow div {
+    display: none;
+  }
+  div.slideshow div.active {
+    display: inline;
+  }
+  div.slideshow div img {
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: #272727 2px 2px 5px -1px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  div.slideshow h2 {
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 300;
+    margin: 0;
+  }
+
+  div.banner {
+    text-align: center;
+    background-color: #092C5C;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 15px;
+    padding: 30px 0;
+  }
+  div.about {
+    font-size: 100%;
+    text-align: justify;
+  }
+  div.about img {
+    float: left;
+    width: 25%;
+    margin: 0 10px 10px 0;
+    border-radius: 3px;
+    box-shadow: #333 1px 1px 3px -1px; 
+  }
+  div.product {
+    display: inline-block;
+    width: 30%;
+    margin: 5px 5px 45px 5px;
+  }
+  div.product img {
+    width: 100%;
+    height: 150px;
+    border-radius: 3px;
+    box-shadow: #333 1px 1px 3px -1px; 
+  }
+  div.product p.small {
+    text-align: center;
+    font-size: smaller;
+    margin: 0;
+  }
+  div.staff {
+    text-align: center;
+  }
+  div.employee {
+    display: inline-block;
+    width: 30%;
+    margin: 5px 5px 45px 5px;
+  }
+  div.employee > img {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    box-shadow: #333 1px 1px 3px -1px;
+  }
+  div.tri {
+    width: 100%;
+  }
+  div.tri > div {
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    margin: 5px 5px 45px 5px;
+  }
+  div.tri > div > p {
+    font-size: 80%;
+  }
+  div.tri > div > h1 {
+    font-size: 140%;
+  }
+  div.contact-footer {
+    background-color: #333;
+    color: white;
+  }
+  div.left-info {
+    width: 50%;
+    float: left;
+  }
+  div.right-info {
+    width: 50%;
+    float: right;
+  }
+  div.info {
+    width: 80%;
+    margin: 25px 0;
+  }
+  div.info h1 {
+    color: #8FBCE6;
+    font-size: 140%;
+  }
+  div.info span {
+    font-size: 90%;
+  }
 }
 
 /* Layout for tablets. */
-@media screen and (max-width: 768px) and (min-width: 426px) {
+@media screen and (max-width: 570px) and (min-width: 426px) {
+  header {
+    height: 15px;
+  }
+
+  nav {
+    width: 100%;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+  }
+
+  nav ul li {
+    float: left; 
+  }
+
+  nav ul li.shift-right {
+    float: right; 
+  }
+
+  nav ul li a {
+    color: #333;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 1px 2px;
+  }
+
+  nav ul li a:hover:not(.active) {
+    background-color: #092C5C;
+    border-radius: 2px;
+    color: whitesmoke;
+  }
+
+  a.active {
+    background-color: #8FBCE6;
+    border-radius: 2px;
+  }
+
+  div.landing {
+    max-width: 100vw;
+    height: 600px;
+    background-color: #333;
+  }
+
+  div.left-side {
+    text-align: center;
+    font-weight: 800;
+    color: whitesmoke;
+    margin: 40px 0;
+  }
+  div.left-side h1 {
+    margin: 10px 0;
+    padding-top: 20px;
+  }
+  div.right-side {
+    color: whitesmoke;
+  }
+
+  div.slideshow div {
+    display: none;
+  }
+  div.slideshow div.active {
+    display: inline;
+  }
+  div.slideshow div img {
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: #272727 2px 2px 5px -1px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  div.slideshow h2 {
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 300;
+    margin: 0;
+  }
+
+  div.banner {
+    text-align: center;
+    background-color: #092C5C;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 15px;
+    padding: 30px 0;
+  }
+  div.about {
+    font-size: 100%;
+    text-align: justify;
+  }
+  div.about img {
+    float: left;
+    width: 25%;
+    margin: 0 10px 10px 0;
+    border-radius: 3px;
+    box-shadow: #333 1px 1px 3px -1px; 
+  }
+  div.product {
+    display: inline-block;
+    width: 30%;
+    margin: 5px 5px 45px 5px;
+  }
+  div.product img {
+    width: 100%;
+    height: 150px;
+    border-radius: 3px;
+    box-shadow: #333 1px 1px 3px -1px; 
+  }
+  div.product p.small {
+    text-align: center;
+    font-size: smaller;
+    margin: 0;
+  }
+  div.staff {
+    text-align: center;
+  }
+  div.employee {
+    display: inline-block;
+    width: 30%;
+    margin: 5px 5px 45px 5px;
+  }
+  div.employee > img {
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    box-shadow: #333 1px 1px 3px -1px;
+  }
+  div.tri {
+    width: 100%;
+  }
+  div.tri > div {
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    margin: 5px 5px 45px 5px;
+  }
+  div.tri > div > p {
+    font-size: 80%;
+  }
+  div.tri > div > h1 {
+    font-size: 140%;
+  }
+  div.contact-footer {
+    background-color: #333;
+    color: white;
+  }
+  div.left-info {
+    width: 50%;
+    float: left;
+  }
+  div.right-info {
+    width: 50%;
+    float: right;
+  }
+  div.info {
+    width: 80%;
+    margin: 25px 0;
+  }
+  div.info h1 {
+    color: #8FBCE6;
+    font-size: 140%;
+  }
+  div.info span {
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 571px) {
+  header {
+    height: 52px;
+  }
+
+  nav {
+    width: 100%;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+  }
+
+  nav ul li {
+    float: left; 
+  }
+
+  nav ul li.shift-right {
+    float: right; 
+  }
+
+  nav ul li a {
+    color: #333;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 1px 2px;
+  }
+
+  nav ul li a:hover:not(.active) {
+    background-color: #092C5C;
+    border-radius: 2px;
+    color: whitesmoke;
+  }
+
+  a.active {
+    background-color: #8FBCE6;
+    border-radius: 2px;
+  }
+
+  div.landing {
+    max-width: 100vw;
+    height: 600px;
+    background-color: #333;
+  }
+
+  div.left-side {
+    float: left;
+    width: 50%;
+    height: 600px;
+    position: relative;
+    font-weight: 800;
+    color: whitesmoke;
+  }
+  div.left-side h1 {
+    margin: 10px 0;
+  }
+  div.left-side div.headline {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  div.right-side {
+    float: right;
+    width: 50%;
+    height: 600px;
+    position: relative;
+    color: whitesmoke;
+  }
+  div.right-side div.slideshow {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  div.slideshow div {
+    display: none;
+  }
+  div.slideshow div.active {
+    display: inline;
+  }
+  div.slideshow div img {
+    width: 250px;
+    border-radius: 3px;
+    box-shadow: #272727 2px 2px 5px -1px; 
+  }
+  div.slideshow h2 {
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 300;
+  }
+
+  div.banner {
+    text-align: center;
+    background-color: #092C5C;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 15px;
+    padding: 30px 0;
+  }
+  div.about {
+    font-size: 100%;
+    text-align: justify;
+  }
+  div.about img {
+    float: left;
+    width: 25%;
+    margin: 0 10px 10px 0;
+    border-radius: 3px;
+    box-shadow: #333 1px 1px 3px -1px; 
+  }
+  div.product {
+    display: inline-block;
+    width: 31%;
+    margin: 5px 5px 45px 5px;
+  }
+  div.product img {
+    width: 100%;
+    height: 150px;
+    border-radius: 3px;
+    box-shadow: #333 1px 1px 3px -1px; 
+  }
+  div.product p.small {
+    text-align: center;
+    font-size: smaller;
+    margin: 0;
+  }
+  div.staff {
+    text-align: center;
+  }
+  div.employee {
+    display: inline-block;
+    width: 30.13%;
+    margin: 5px 5px 45px 5px;
+  }
+  div.employee > img {
+    height: 150px;
+    border-radius: 100%;
+    box-shadow: #333 1px 1px 3px -1px;
+  }
+  div.tri {
+    width: 100%;
+  }
+  div.tri > div {
+    text-align: center;
+    display: inline-block;
+    width: 31%;
+    margin: 5px 5px 45px 5px;
+  }
+  div.tri > div > p {
+    font-size: 80%;
+  }
+  div.tri > div > h1 {
+    font-size: 140%;
+  }
+  div.contact-footer {
+    background-color: #333;
+    color: white;
+  }
+  div.left-info {
+    width: 50%;
+    float: left;
+  }
+  div.right-info {
+    width: 50%;
+    float: right;
+  }
+  div.info {
+    width: 90%;
+    margin: 50px 20px;
+  }
+  div.info h1 {
+    color: #8FBCE6;
+    font-size: 120%;
+  }
+  div.info span {
+    font-size: 90%;
+  }
   
 }
-
 /* Layout for laptops. */
 @media screen and (max-width: 1024px) and (min-width: 769px) {
+  header {
+    height: 52px;
+  }
+
+  nav {
+    width: 100%;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+  }
+
+  nav ul li {
+    float: left; 
+  }
+
+  nav ul li.shift-right {
+    float: right; 
+  }
+
+  nav ul li a {
+    color: #333;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 1px 2px;
+  }
+
+  nav ul li a:hover:not(.active) {
+    background-color: #092C5C;
+    border-radius: 2px;
+    color: whitesmoke;
+  }
+
+  a.active {
+    background-color: #8FBCE6;
+    border-radius: 2px;
+  }
+
+  div.landing {
+    max-width: 100vw;
+    height: 600px;
+    background-color: #333;
+  }
+
+  div.left-side {
+    float: left;
+    width: 50%;
+    height: 600px;
+    position: relative;
+    font-weight: 800;
+    color: whitesmoke;
+  }
+  div.left-side h1 {
+    margin: 10px 0;
+  }
+  div.left-side div.headline {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  div.right-side {
+    float: right;
+    width: 50%;
+    height: 600px;
+    position: relative;
+    color: whitesmoke;
+  }
+  div.right-side div.slideshow {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  div.slideshow div {
+    display: none;
+  }
+  div.slideshow div.active {
+    display: inline;
+  }
+  div.slideshow div img {
+    width: 250px;
+    border-radius: 3px;
+    box-shadow: #272727 2px 2px 5px -1px; 
+  }
+  div.slideshow h2 {
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 300;
+  }
+
+  div.banner {
+    text-align: center;
+    background-color: #092C5C;
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 15px;
+    padding: 60px 0;
+  }
+  div.about {
+    font-size: 140%;
+    text-align: justify;
+  }
+  div.about img {
+    float: left;
+    width: 25%;
+    margin: 0 10px 10px 0;
+    border-radius: 3px;
+    box-shadow: #333 1px 1px 3px -1px; 
+  }
+  div.product {
+    display: inline-block;
+    width: 31.5%;
+    margin: 5px 5px 45px 5px;
+  }
+  div.product img {
+    width: 100%;
+    height: 150px;
+    border-radius: 3px;
+    box-shadow: #333 1px 1px 3px -1px; 
+  }
+  div.product p.small {
+    text-align: center;
+    font-size: smaller;
+    margin: 0;
+  }
+  div.staff {
+    text-align: center;
+  }
+  div.employee {
+    display: inline-block;
+    width: 30.13%;
+    margin: 5px 5px 45px 5px;
+  }
+  div.employee > img {
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: #333 1px 1px 3px -1px;
+  }
+  div.tri {
+    width: 100%;
+  }
+  div.tri > div {
+    text-align: center;
+    display: inline-block;
+    width: 31.5%;
+    margin: 5px 5px 45px 5px;
+  }
+  div.tri > div > p {
+    font-size: 150%;
+  }
+  div.contact-footer {
+    background-color: #333;
+    color: white;
+  }
+  div.left-info {
+    width: 50%;
+    float: left;
+  }
+  div.right-info {
+    width: 50%;
+    float: right;
+  }
+  div.info {
+    width: 90%;
+    margin: 50px 40px 50px 40px;
+  }
+  div.info h1 {
+    color: #8FBCE6;
+  }
+  div.info span {
+    font-size: 100%;
+  }
   
 }
 
